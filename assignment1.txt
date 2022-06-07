@@ -1,0 +1,3 @@
+ASSIGNMENT 1
+when we have to pick up nodes based on some properties as we did for ssd
+also when we have requirement that pod should be distributed over all nodes equally
