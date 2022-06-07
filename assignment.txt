@@ -1,0 +1,26 @@
+ASSIGNMENT 4.
+OBSERVATIONS
+
+1. when  kubectl apply -f . is given while starting the pods my worker pod got error and at that time db pod was not up i think woke was not able to establish connection with db
+2. voting and result app services type is  nodeport  becoz this services we have to expose to the user so that user can vote and also see results
+3. at the results when i am voting it is not updating in result i think this is happening boz at start worker got error while starting and not able to establish connection with db but worker is not connected to db
+4. i deleted woker pod but replicaset created a new worker pod but it was aslo nit working
+5. when i deleted result pod and a new was created by rs then by app is working so i  think result was not connected with worker so when i deleted result pod it was able to establish connection
+6. when i deleted voting pod it showing status as pending bcoz it was waiting for kubernes to delete that pod and then it created new pod he did this bcoz he was preserving that ip bcoz it given to others and they are using it
+7. now when i deleted worker pod my result app was not showing result properly and aslo when i give "kctl get po" command ther was showing some db status as evicted and also it was waiting for previous worker pod to terminate and then it created worker pod so worker here is also preserving ip
+8. when i deleted db pod worker pod got error while running bocz worker was not able to establish connection result was aslo not working properly
+9. result pod stopped working it was connected with that db pod and connection got lost
+10. to make result pod work we should delete result pod it will create new pod and will establich connection with db so it will work fine
+
+--jargons--
+Replicaset 
+sevices
+demonset
+volume
+persistent volume
+persistent volume claim
+statuful set 
+configmap
+
+ 
+
