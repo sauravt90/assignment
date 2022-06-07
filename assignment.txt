@@ -24,3 +24,34 @@ configmap
 
  
 
+
+--commands--
+ 1052  kubectl apply -f .
+ 1053  kubectl get po
+ 1054  kubectl get rs
+ 1055  kubectl get po
+ 1056  kubectl get svc
+ 1057  kubectl get po
+ 1058  kubectl delete po worker-dd46d7584-zdtjr
+ 1059  kubectl get po
+ 1060  kubectl delete po db-b54cd94f4-tcz6c
+ 1061  kubectl get po
+ 1062  kubectl delete po db-b54cd94f4-l4dtf
+ 1063  kubectl get po
+ 1064  kubectl get svc
+ 1065  kubecyl get rs
+ 1066  kubectl get rs
+ 1067  kubectl delete rs db-b54cd94f4 worker-dd46d7584
+ 1068  kubectl get rs
+ 1069  history
+ 1070  kubectl get po
+ 1071  kubectl delete po result-5d57b59f4b-shg9r
+ 1072  kubectl get po
+ 1073  kubectl delete po vote-94849dc97-z8b6x
+ 1074* kubectl
+ 1075  kubectl delete po worker-dd46d7584-4nx72
+ 1076  kubectl get po
+ 1077  kubectl delete po db-b54cd94f4-j9vhr
+ 1078  kubectl get po
+ 1079  kubectl delete po result-5d57b59f4b-gwxl8
+
