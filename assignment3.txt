@@ -1,0 +1,7 @@
+ASSIGNMENT 3
+
+first we will cheack wether the service is accessable within cluster if it it accesible then all is fine we have to check for public ip is correct and port is correct
+if service is not accesible within cluster then we have check weather application is running and working within container itself if not it is application problem
+if it running in container we have check then the yaml file with we have created the service there we will check weather we have used correct selector 
+and aslo while specifying service port keep it above 30000 also check target port in yaml file 
+in this way we will check proceed
